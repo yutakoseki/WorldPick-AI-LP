@@ -38,89 +38,87 @@ type Faq = {
 
 const newsHighlights: NewsItem[] = [
   {
-    title:
-      "Anthropicの新しいAIモデル、オフラインにされると開発者を脅迫しようとする",
-    body: "Anthropicが発表した新しいAIモデルClaude Opus 4は、開発者が新しいAIシステムに置き換えようとすると、84%の確率で脅迫行動を示すことが安全報告書で明らかになった。",
-    source: "Tech Crunch",
+    title: "米国株市場、FOMC議事録発表で上昇 - インフレ懸念の緩和示唆",
+    body: "米連邦準備制度理事会（FRB）の12月FOMC議事録が発表され、インフレ目標達成への道筋が明確化。市場は利下げ期待を織り込み、S&P500は前日比1.2%上昇。",
+    source: "CNBC Investing",
   },
   {
-    title: "ChatGPTのすべて：AIチャットボットについて知っておくべきこと",
-    body: "OpenAIのChatGPTは、2022年のリリース以来、3億週間アクティブユーザーを獲得し、生産性を向上させる巨大プラットフォームへと進化しました。",
-    source: "Tech Crunch",
+    title: "OpenAI、新たな資金調達ラウンドで評価額1000億ドル突破",
+    body: "OpenAIが新たな資金調達ラウンドで評価額1000億ドルを突破。AI市場の成長期待を背景に、投資家の関心が高まっている。",
+    source: "TechCrunch",
   },
   {
-    title: "Google、Gemini AIモデルの性能を向上させる『Deep Think』を発表",
-    body: "GoogleはGemini 2.5 Pro向けに強化された推論モードを発表し、LiveCodeBenchで最高成績を記録。OpenAIのo3をMMMUテストで上回りました。",
-    source: "Google Blog",
+    title: "Apple、第1四半期決算でiPhone売上高を上回る - サービス収益が牽引",
+    body: "Appleが第1四半期決算を発表。iPhone売上高は前年同期比で微減したものの、サービス収益が大幅に増加し、全体収益は市場予想を上回った。",
+    source: "CNBC Earnings",
   },
 ];
 
 const featureCards: FeatureCard[] = [
   {
-    label: "AIニュース",
-    title: "最新のAIトレンドを毎朝キャッチアップ",
+    label: "投資ニュース",
+    title: "市場動向と投資戦略の要点を毎朝配信",
     description:
-      "GPT, Claudeなど大手LLMのアップデートや話題のAIエージェント情報を5分で理解できるサマリーでお届け。",
+      "CNBC Investingから個人投資家が最も欲しい「株・投資の要点」を厳選。市場動向と投資戦略の切り口を5分で理解できるサマリーでお届け。",
   },
   {
-    label: "グローバルニュースサマリー",
-    title: "世界中の重要ニュースを日本語で要約",
+    label: "決算速報",
+    title: "重要企業の決算情報を日本語で即時配信",
     description:
-      "指定テーマに関連する記事を各種メディアから厳選し、日本語に翻訳。3つの要点で重要ポイントだけを通知します。",
+      "CNBC Earningsから決算速報を厳選し、日本語に翻訳。投資判断に必要な重要ポイントを3つの要点で通知します。",
   },
   {
-    label: "ニュース（β版）",
-    title: "気になる企業の動きをSlackに自動配信",
+    label: "政策動向",
+    title: "中長期投資に影響する政策情報を配信",
     description:
-      "チェックしたい企業名・サービス名・キーワードを登録するだけで、競合のプレスリリースや記事サマリーが届きます。",
+      "ホワイトハウスの大統領令や政策動向を中長期視点の投資家向けに翻訳。差別化された情報で投資戦略を立てられます。",
   },
 ];
 
 const automationSteps: Step[] = [
   {
     badge: "Step 01",
-    title: "Slackアプリを追加",
+    title: "アカウント登録",
     description:
-      "「Add to Slack」ボタンをクリックし、ワークスペースへWorldPick AIアプリをインストールします。",
+      "メールアドレスで簡単登録。投資家向けのニュースをタイムラインで受け取れます。",
   },
   {
     badge: "Step 02",
-    title: "トピック＆チャンネル選択",
-    description:
-      "App Homeでウォッチしたいトピックや競合を選択し、配信したいSlackチャンネルを指定します。",
+    title: "3行要約",
+    description: "忙しいあなたでも3行要約で簡単に世界の動向をキャッチアップ。",
   },
   {
     badge: "Step 03",
-    title: "毎朝9時にダイジェスト",
+    title: "詳細や出典も確認",
     description:
-      "設定したチャンネルへ翌朝から自動でニュースダイジェストを投稿。忙しい朝でも5分で情報把握。",
+      "気になるニュースは詳細内容を確認。出典もリンクから確認できます。",
   },
 ];
 
 const testimonials: Testimonial[] = [
   {
     quote:
-      "Slackの朝会チャンネルにWorldPick AIをつなげただけで、チーム全員の情報レベルが底上げされ、意思決定が早まりました。",
-    role: "プロダクトマネージャー",
-    person: "週５時間かけていた競合ウォッチが15分に",
+      "毎朝の投資ニュース配信で、米国市場の動向を素早く把握できるようになりました。投資判断の精度が格段に向上しました。",
+    role: "個人投資家",
+    person: "投資判断の精度が格段に向上",
   },
   {
     quote:
-      "海外競合の重要ニュースが自動翻訳で届くため、英語が苦手なメンバーでも即共有できる体制が整いました。",
-    role: "事業開発部 部長",
-    person: "競合リスクの可能性まで拾えるのが心強い",
+      "決算速報が日本語で届くため、英語が苦手でも重要な企業情報を逃すことがなくなりました。",
+    role: "投資アドバイザー",
+    person: "重要な企業情報を逃すことがない",
   },
   {
     quote:
-      "朝の5分でAIニュースを確認。午後の会議までにキャッチアップが完了し、SNSを開く時間が激減しました。",
-    role: "マーケティングマネージャー",
-    person: "SNSを見なくてもニュースをキャッチアップ",
+      "朝の5分で市場動向を確認。政策動向も含めて中長期投資戦略を立てやすくなりました。",
+    role: "ファンドマネージャー",
+    person: "中長期投資戦略を立てやすくなった",
   },
   {
     quote:
-      "常に最新の競合比較を把握しているので、商談でも戦略でも迷わず判断できるようになりました。",
-    role: "スタートアップ経営者",
-    person: "最新情報をもとに戦略を磨くことができた",
+      "CNBCやTechCrunchの重要ニュースが翻訳されて届くので、常に最新の投資情報を把握できています。",
+    role: "個人投資家",
+    person: "常に最新の投資情報を把握",
   },
 ];
 
@@ -129,12 +127,6 @@ const pricingPlans: PricingPlan[] = [
     name: "１カ月プラン",
     price: "¥500",
     cadence: "/月",
-  },
-  {
-    name: "１年プラン",
-    price: "¥14,900",
-    cadence: "/年",
-    note: "¥17,880/年 → 2ヶ月無料",
   },
 ];
 
@@ -145,28 +137,28 @@ const faqs: Faq[] = [
       "はい。14日間の無料体験をご利用いただけます。終了後は自動課金されませんので、継続する場合のみプランをご契約ください。",
   },
   {
-    question: "後でプランを変更できますか？",
+    question: "年間プランはありますか？",
     answer:
-      "はい。管理画面から月額・年額プランの切り替えがいつでも可能です。差額は日割りで調整されます。",
+      "現在は月額プランのみのご提供となります。年間プランについては将来的にご提供予定です。",
   },
   {
     question: "配信タイミングはいつですか？",
-    answer:
-      "初回設定の翌営業日から毎朝09:00 (JST) に最新ニュースをSlackへ配信します。",
+    answer: "30分おきに世界のニュースを取得し、都度翻訳して配信します。",
   },
   {
-    question: "どの言語に対応していますか？",
+    question: "どのニュースソースから情報を取得していますか？",
     answer:
-      "主要メディアの記事を自動で日本語に翻訳し要約します。英語原文も確認できるようリンクを併記しています。",
+      "CNBC Investing・Earnings、TechCrunch、Bloomberg、ホワイトハウスの大統領令など、投資家にとって重要な情報源から厳選して配信しています。今後さらに拡張予定です。",
   },
   {
-    question: "登録できる企業・キーワード数に制限は？",
-    answer: "トライアル期間は3件まで、Proプランでは無制限に設定できます。",
+    question: "閲覧できるニュースに制限はありますか？",
+    answer:
+      "トライアル期間は14日、その後は月500円で無制限にご利用いただけます。",
   },
   {
     question: "契約途中でキャンセルしたらどうなりますか？",
     answer:
-      "次回請求日まで利用可能で、その後の請求は発生しません。年額プランは残期間に応じて日割りで返金します。",
+      "次回請求日まで利用可能で、その後の請求は発生しません。月額プランなので、いつでも簡単にキャンセルできます。",
   },
 ];
 
@@ -203,7 +195,7 @@ export default function Home() {
           </nav>
           <Link
             className="inline-flex items-center gap-2 rounded-full bg-white px-5 py-2 text-sm font-semibold text-neutral-950 shadow-lg transition hover:bg-neutral-200"
-            href="#cta"
+            href="https://news.codeknock.net/"
           >
             <span className="inline-flex h-2 w-2 rounded-full bg-emerald-500" />
             無料で始める
@@ -228,9 +220,10 @@ export default function Home() {
               あなたの言語で。
             </h1>
             <p className="max-w-xl text-base text-neutral-300">
-              Tech Crunchなど世界中のメディアの最新情報をAIが即時翻訳。
+              CNBC、TechCrunch、決算速報など投資家が求める情報をAIが即時翻訳。
               <br />
-              世界の動きをいち早くキャッチできるのは WorldPick AI だけ。
+              市場動向をいち早くキャッチして投資判断に活かせるのは WorldPick AI
+              だけ。
             </p>
             <div className="flex flex-wrap items-center gap-4 text-sm text-neutral-300">
               <div className="flex items-center gap-2 rounded-full border border-white/10 bg-white/5 px-4 py-2">
@@ -251,9 +244,9 @@ export default function Home() {
               </Link>
               <Link
                 className="inline-flex items-center gap-2 rounded-full border border-white/20 px-6 py-3 text-sm font-semibold text-white transition hover:bg-white/10"
-                href="#features"
+                href="https://x.com/world_pick_ai"
               >
-                サービスを見る
+                お問い合わせ
                 <svg
                   aria-hidden
                   className="h-4 w-4"
@@ -313,11 +306,16 @@ export default function Home() {
               情報収集の手間、ゼロに。
             </p>
             <h2 className="text-3xl font-bold text-white sm:text-4xl">
-              Slackで完結するニュース体験
+              投資家のためのニュース配信サービス
             </h2>
             <p className="max-w-3xl text-base text-neutral-300">
-              セットアップは企業名や業界を入力するだけ。WorldPick
-              AIが世界中のメディアから関連ニュースを抽出し、日本語での要点整理と出典リンク付きでSlackに届けます。
+              セットアップは不要。世界の投資家が求める情報を WorldPick
+              AIが自動で取得し即時翻訳。
+              <br />
+              CNBC Investing、TechCrunch、決算速報、Bloomberg
+              などから投資に必要な情報を抽出し、
+              <br />
+              日本語での3行要約と詳細要約を出典リンク付きで配信します。
             </p>
           </div>
           <div className="grid gap-6 md:grid-cols-3">
@@ -352,8 +350,7 @@ export default function Home() {
               How to Use
             </h2>
             <p className="max-w-3xl text-sm text-neutral-300">
-              Add to
-              Slackをクリックしたその日から、翌朝にはカスタマイズされたダイジェストを受け取れます。複雑な設定や外部ツールの併用は不要です。
+              無料登録したその瞬間から、世界のダイジェストを受け取れます。複雑な設定や外部ツールの併用は不要です。
             </p>
           </div>
           <div className="grid gap-6 md:grid-cols-3">
@@ -383,17 +380,19 @@ export default function Home() {
                 Global News Sample
               </p>
               <h2 className="text-3xl font-bold text-white sm:text-4xl">
-                生成AIの最前線を1枚で把握
+                投資市場の動向を1枚で把握
               </h2>
               <p className="max-w-2xl text-sm text-neutral-300">
-                AIエージェントのアップデートから主要LLMの発表まで、注目テーマごとに毎朝サマリー。要約と共に原文リンクも付属するので、深掘りしたい時もすぐアクセスできます。
+                米国株市場の動向から重要企業の決算情報まで、投資家が注目すべきテーマごとにサマリー。
+                <br />
+                要約、詳細と共に原文リンクも付属するので、深掘りしたい時もすぐアクセスできます。
               </p>
             </div>
             <Link
               className="inline-flex items-center gap-2 rounded-full border border-white/20 px-5 py-2 text-sm font-semibold text-white transition hover:bg-white/10"
-              href="https://slack.com/"
+              href="https://news.codeknock.net/"
             >
-              Slackで無料体験
+              無料体験を始める
               <svg
                 aria-hidden
                 className="h-4 w-4"
@@ -469,10 +468,10 @@ export default function Home() {
               料金体系
             </h2>
             <p className="max-w-2xl text-sm text-neutral-300">
-              トライアル後はTeamで使えるProプランをご用意。年額プランなら2カ月分がお得です。
+              トライアル後は月額500円のシンプルな料金体系でご利用いただけます。
             </p>
           </div>
-          <div className="grid gap-6 md:grid-cols-2">
+          <div className="grid gap-6 md:grid-cols-1 max-w-md mx-auto">
             {pricingPlans.map((plan) => (
               <div
                 key={plan.name}
@@ -496,7 +495,7 @@ export default function Home() {
                 </div>
                 <Link
                   className="mt-6 inline-flex items-center justify-center rounded-full bg-white/90 px-5 py-3 text-sm font-semibold text-neutral-900 transition hover:bg-white"
-                  href="https://slack.com/"
+                  href="https://news.codeknock.net/"
                 >
                   無料トライアルをはじめる
                 </Link>
@@ -517,21 +516,15 @@ export default function Home() {
               エンタープライズ導入や取材のご相談はこちら
             </h2>
             <p className="text-sm text-neutral-300">
-              大規模導入やOEMのご相談、メディア取材のご依頼は下記よりご連絡ください。担当より1営業日以内に折り返します。
+              大規模導入やOEMのご相談、メディア取材のご依頼は下記よりDMにてご連絡ください。担当より折り返します。
             </p>
             <div className="flex flex-col items-center justify-center gap-3 sm:flex-row">
               <a
                 className="inline-flex items-center gap-2 rounded-full border border-white/20 px-5 py-3 text-sm font-semibold text-white transition hover:bg-white/10"
-                href="mailto:hello@news-hound.ai"
+                href="https://x.com/world_pick_ai"
               >
-                hello@news-hound.ai
+                X @world_pick_ai
               </a>
-              <Link
-                className="inline-flex items-center gap-2 rounded-full bg-white/90 px-5 py-3 text-sm font-semibold text-neutral-900 transition hover:bg-white"
-                href="https://news-hound.ai/contact"
-              >
-                お問い合わせフォーム
-              </Link>
             </div>
           </div>
         </section>
@@ -566,13 +559,11 @@ export default function Home() {
             ))}
           </div>
           <p className="text-xs text-neutral-400">
-            ※ 本アプリは Claude™（Anthropic 社）、ChatGPT™（OpenAI
-            社）、Deepseek™（Deepseek
-            社）など複数の大規模言語モデルを組み合わせて回答を生成しています。重要な判断に用いる際は一次情報をご確認ください。
+            ※ 本アプリは OpenAI
+            の大規模言語モデルを用いて回答を生成しています。重要な判断に用いる際は一次情報をご確認ください。
           </p>
           <p className="text-xs text-neutral-500">
-            ※ This app combines multiple generative AI models—including Claude™
-            (Anthropic), ChatGPT™ (OpenAI), and Deepseek™—to produce responses.
+            ※ This app uses OpenAI's generative AI models to produce responses.
             Verify critical information before acting on it.
           </p>
         </section>
@@ -583,13 +574,19 @@ export default function Home() {
           <div className="flex flex-col gap-4 md:flex-row md:items-center md:justify-between">
             <div className="text-lg font-semibold text-white">WorldPick AI</div>
             <div className="flex flex-wrap items-center gap-4">
-              <Link className="hover:text-white transition" href="#cta">
+              <Link
+                className="hover:text-white transition"
+                href="https://news.codeknock.net/"
+              >
                 無料で始める
               </Link>
-              <a className="hover:text-white transition" href="#contact">
+              <a
+                className="hover:text-white transition"
+                href="https://x.com/world_pick_ai"
+              >
                 お問い合わせ
               </a>
-              <a className="hover:text-white transition" href="#">
+              {/* <a className="hover:text-white transition" href="#">
                 利用規約
               </a>
               <a className="hover:text-white transition" href="#">
@@ -597,10 +594,10 @@ export default function Home() {
               </a>
               <a className="hover:text-white transition" href="#">
                 運営会社
-              </a>
+              </a> */}
             </div>
           </div>
-          <div className="text-xs text-neutral-500">© 2025 giltz Co.,ltd</div>
+          {/* <div className="text-xs text-neutral-500">© 2025 giltz Co.,ltd</div> */}
         </div>
       </footer>
     </div>
