@@ -563,8 +563,8 @@ export default function Home() {
             の大規模言語モデルを用いて回答を生成しています。重要な判断に用いる際は一次情報をご確認ください。
           </p>
           <p className="text-xs text-neutral-500">
-            ※ This app uses OpenAI's generative AI models to produce responses.
-            Verify critical information before acting on it.
+            ※ This app uses OpenAI&apos;s generative AI models to produce
+            responses. Verify critical information before acting on it.
           </p>
         </section>
       </main>
