@@ -195,7 +195,7 @@ export default function Home() {
           </nav>
           <Link
             className="inline-flex items-center gap-2 rounded-full bg-white px-5 py-2 text-sm font-semibold text-neutral-950 shadow-lg transition hover:bg-neutral-200"
-            href="https://news.codeknock.net/"
+            href="https://worldpick-ai.codeknock.net/"
           >
             <span className="inline-flex h-2 w-2 rounded-full bg-emerald-500" />
             無料で始める
@@ -238,7 +238,7 @@ export default function Home() {
             <div className="flex flex-wrap items-center gap-4">
               <Link
                 className="inline-flex items-center gap-3 rounded-full bg-emerald-500 px-6 py-3 text-sm font-semibold text-neutral-900 shadow-lg shadow-emerald-500/40 transition hover:bg-emerald-400"
-                href="https://news.codeknock.net/"
+                href="https://worldpick-ai.codeknock.net/"
               >
                 無料登録はこちら
               </Link>
@@ -390,7 +390,7 @@ export default function Home() {
             </div>
             <Link
               className="inline-flex items-center gap-2 rounded-full border border-white/20 px-5 py-2 text-sm font-semibold text-white transition hover:bg-white/10"
-              href="https://news.codeknock.net/"
+              href="https://worldpick-ai.codeknock.net/"
             >
               無料体験を始める
               <svg
@@ -495,7 +495,7 @@ export default function Home() {
                 </div>
                 <Link
                   className="mt-6 inline-flex items-center justify-center rounded-full bg-white/90 px-5 py-3 text-sm font-semibold text-neutral-900 transition hover:bg-white"
-                  href="https://news.codeknock.net/"
+                  href="https://worldpick-ai.codeknock.net/"
                 >
                   無料トライアルをはじめる
                 </Link>
@@ -576,7 +576,7 @@ export default function Home() {
             <div className="flex flex-wrap items-center gap-4">
               <Link
                 className="hover:text-white transition"
-                href="https://news.codeknock.net/"
+                href="https://worldpick-ai.codeknock.net/"
               >
                 無料で始める
               </Link>

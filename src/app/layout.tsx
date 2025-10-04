@@ -10,9 +10,9 @@ const notoSans = Noto_Sans_JP({
 });
 
 export const metadata: Metadata = {
-  title: "業界・ニュース要約を毎朝5分で｜WorldPick AI",
+  title: "世界のNEWSをあなたの言語で｜WorldPick AI",
   description:
-    "グローバルで戦うあなたへ、世界のNEWSをあなたの言語で。あなたが気になる業界のニュースを要約して配信するSlackアプリです。",
+    "たったワンコインで世界が読める、世界中の投資家がチェックする情報を翻訳 & 要約して配信するWebアプリです。",
   keywords: [
     "WorldPick AI",
     "ニュースサマリー",
@@ -21,19 +21,19 @@ export const metadata: Metadata = {
     "AI ニュース",
   ],
   openGraph: {
-    title: "業界・ニュース要約を毎朝5分で｜WorldPick AI",
+    title: "世界のNEWSをあなたの言語で｜WorldPick AI",
     description:
-      "グローバルで戦うあなたへ、世界のNEWSをあなたの言語で。あなたが気になる業界のニュースを要約して配信するSlackアプリです。",
-    url: "https://news-hound.ai/",
+      "たったワンコインで世界が読める、世界中の投資家がチェックする情報を翻訳 & 要約して配信するWebアプリです。",
+    url: "https://worldpick-ai.codeknock.net",
     siteName: "WorldPick AI",
     locale: "ja_JP",
     type: "website",
   },
   twitter: {
     card: "summary_large_image",
-    title: "業界・ニュース要約を毎朝5分で｜WorldPick AI",
+    title: "世界のNEWSをあなたの言語で｜WorldPick AI",
     description:
-      "グローバルで戦うあなたへ、世界のNEWSをあなたの言語で。あなたが気になる業界のニュースを要約して配信するSlackアプリです。",
+      "たったワンコインで世界が読める、世界中の投資家がチェックする情報を翻訳 & 要約して配信するWebアプリです。",
   },
 };
 
