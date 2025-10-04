@@ -134,7 +134,7 @@ const faqs: Faq[] = [
   {
     question: "無料トライアルはありますか？",
     answer:
-      "はい。14日間の無料体験をご利用いただけます。終了後は自動課金されませんので、継続する場合のみプランをご契約ください。",
+      "はい。7日間の無料体験をご利用いただけます。終了後は自動課金されませんので、継続する場合のみプランをご契約ください。",
   },
   {
     question: "年間プランはありますか？",
@@ -153,7 +153,7 @@ const faqs: Faq[] = [
   {
     question: "閲覧できるニュースに制限はありますか？",
     answer:
-      "トライアル期間は14日、その後は月500円で無制限にご利用いただけます。",
+      "トライアル期間は7日、その後は月500円で無制限にご利用いただけます。",
   },
   {
     question: "契約途中でキャンセルしたらどうなりますか？",
@@ -232,7 +232,7 @@ export default function Home() {
               </div>
               <div className="flex items-center gap-2 rounded-full border border-white/10 bg-white/5 px-4 py-2">
                 <span className="h-2 w-2 rounded-full bg-sky-400" />
-                14日間無料体験
+                7日間無料体験
               </div>
             </div>
             <div className="flex flex-wrap items-center gap-4">
@@ -265,7 +265,7 @@ export default function Home() {
               </Link>
             </div>
             <p className="text-xs text-neutral-400">
-              ※14日間の無料体験終了後は、プレミアムプラン（月額500円）をご契約いただくことで引き続きご利用いただけます。
+              ※7日間の無料体験終了後は、プレミアムプラン（月額500円）をご契約いただくことで引き続きご利用いただけます。
             </p>
           </div>
 
