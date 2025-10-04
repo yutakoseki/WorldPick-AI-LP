@@ -10,30 +10,30 @@ const notoSans = Noto_Sans_JP({
 });
 
 export const metadata: Metadata = {
-  title: "業界・競合ニュース要約を毎朝5分で｜Newshound AI",
+  title: "業界・ニュース要約を毎朝5分で｜WorldPick AI",
   description:
-    "グローバルで戦うあなたへ、世界の競合ニュースをあなたの言語で。あなたが気になる業界のニュースを要約して配信するSlackアプリです。",
+    "グローバルで戦うあなたへ、世界のNEWSをあなたの言語で。あなたが気になる業界のニュースを要約して配信するSlackアプリです。",
   keywords: [
-    "Newshound AI",
+    "WorldPick AI",
     "ニュースサマリー",
     "競合調査",
     "Slack アプリ",
     "AI ニュース",
   ],
   openGraph: {
-    title: "業界・競合ニュース要約を毎朝5分で｜Newshound AI",
+    title: "業界・ニュース要約を毎朝5分で｜WorldPick AI",
     description:
-      "グローバルで戦うあなたへ、世界の競合ニュースをあなたの言語で。あなたが気になる業界のニュースを要約して配信するSlackアプリです。",
+      "グローバルで戦うあなたへ、世界のNEWSをあなたの言語で。あなたが気になる業界のニュースを要約して配信するSlackアプリです。",
     url: "https://news-hound.ai/",
-    siteName: "Newshound AI",
+    siteName: "WorldPick AI",
     locale: "ja_JP",
     type: "website",
   },
   twitter: {
     card: "summary_large_image",
-    title: "業界・競合ニュース要約を毎朝5分で｜Newshound AI",
+    title: "業界・ニュース要約を毎朝5分で｜WorldPick AI",
     description:
-      "グローバルで戦うあなたへ、世界の競合ニュースをあなたの言語で。あなたが気になる業界のニュースを要約して配信するSlackアプリです。",
+      "グローバルで戦うあなたへ、世界のNEWSをあなたの言語で。あなたが気になる業界のニュースを要約して配信するSlackアプリです。",
   },
 };
 
@@ -44,7 +44,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="ja">
-      <body className={`${notoSans.variable} antialiased bg-neutral-950 text-white`}>
+      <body
+        className={`${notoSans.variable} antialiased bg-neutral-950 text-white`}
+      >
         {children}
       </body>
     </html>
