@@ -20,6 +20,11 @@ export const metadata: Metadata = {
     "Slack アプリ",
     "AI ニュース",
   ],
+  icons: {
+    icon: "/favicon.ico",
+    shortcut: "/favicon.ico",
+    apple: "/favicon.ico",
+  },
   openGraph: {
     title: "世界のNEWSをあなたの言語で｜WorldPick AI",
     description:
